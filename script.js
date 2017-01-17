@@ -10,7 +10,7 @@ var textInputButtons = document.getElementsByClassName('addText');
 for (var i = 0; i < textInputButtons.length; i++) {
   textInputButtons[i].addEventListener('click', function() {
     console.log(this.innerHTML)
-    insertAtCaret('codeEditor', this.getAttribute("textFill"))
+    insertAtCaret(codeEditor, this.getAttribute("textFill"))
     updateOutput()
   })
 }
