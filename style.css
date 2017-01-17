@@ -1,0 +1,16 @@
+#unEscaper {
+  width: 510px;
+}
+
+#codeEditor {
+  height: 40vh;
+}
+
+#output {
+  width: 100%;
+  background: #90CAF9;
+  padding: 8px;
+  margin: 10px 0px;
+  min-height: 160px;
+  overflow-y: auto;
+}
