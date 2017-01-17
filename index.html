@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>customscipt</title>
+	<link href='https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/themes/prism.css' rel='stylesheet prefetch'>
+	<link href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css' rel='stylesheet prefetch'>
+	<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<div class='row'>
+			<div class="col s7">
+				<p>full doc here: http://ds.serving-sys.com/BurstingRes/CustomScripts/PL_AddCSS_NCM.js</p>
+				<p></p>
+				<div class="input-field">
+					<input id='unEscaper' placeholder="Paste custom script here"> <button class='btn waves-effect' id='unescapeButton'>unescape</button>
+				</div>
+				<p></p>
+				<textarea cols="40" id='codeEditor' name="Text1" rows="5">p { color: red };
+</textarea><button class='btn blue waves-effect' id='beautify'>Beautify</button><button class='btn waves-effect addText'>[%tp_AdID%]</button> <button class='addText btn waves-effect'>[%bannerdiv%]</button>
+			</div>
+			<div class="input-field col s4">
+				<pre class="language-scss">
+  <code class="language-scss" id="codeDisplay">
+p { color: red };
+  </code>
+</pre><button class="btn waves-effect green" id="submitCss">condensify</button>
+				<div id="output">
+					output
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'>
+	</script> 
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/prism.js'>
+	</script> 
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.1/less.js'>
+	</script> 
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js'>
+	</script> 
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/components/prism-scss.js'>
+	</script> 
+	<script src="js/script.js">
+	</script>
+</body>
+</html>
